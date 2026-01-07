@@ -56,7 +56,7 @@
                                         <td>{{ \Carbon\Carbon::parse($job->created_at)->format('d-m-Y') }}</td>
                                         <td>
                                          <div class="action-dots ">
-                                                <button href="#" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <button class="btn" data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-menu-end">
